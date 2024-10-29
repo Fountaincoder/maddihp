@@ -23,7 +23,7 @@ module tb ();
   wire [7:0] uio_oe;
 
   // Replace tt_um_example with your module name:
-  tt_um_fountaincoder_top tt_um_fountaincoder_top (
+  tt_um_fountaincoder_top_V2 tt_um_fountaincoder_top_V2 (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
