@@ -62,7 +62,7 @@ reg [3:0] i_e;// = 4'b0;
 		 end 
 
 		 	
-	$display("%d r %d run %d load %d isn %d bad %d i_d %d i_e %d index %d data %d out_reg %d", i ,rst_n, run, load,insn, bad_pattern,i_d,i_e, index, data,out_reg);
+//	$display("%d r %d run %d load %d isn %d bad %d i_d %d i_e %d index %d data %d out_reg %d", i ,rst_n, run, load,insn, bad_pattern,i_d,i_e, index, data,out_reg);
 	//$display("d %d c %d t %d m %d",delta,count,total,mem[i]);
 	end
 	assign out = out_reg[7:0];
