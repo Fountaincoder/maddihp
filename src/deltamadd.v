@@ -23,7 +23,7 @@ reg [3:0] i; // i = 4'b1111;
 reg signed [3:0] i_d;
 reg [3:0] i_e;// = 4'b0;   
 		
-	reg signed [11:0] mem[15:0];
+	reg signed [9:0] mem[15:0];
 	reg bad_pattern;// = 0;
 	reg signed [11:0] delta;// =6'b0;
 	reg signed [11:0] count;// = 8'b0;
