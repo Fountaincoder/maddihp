@@ -26,10 +26,6 @@ module tb ();
   tt_um_fountaincoder_top_V2 tt_um_fountaincoder_top_V2 (
 
       // Include power ports for the Gate Level test:
-`ifdef GL_TEST
-      .VPWR(1'b1),
-      .VGND(1'b0),
-`endif
 
       .clk    (clk),      // clock
       .rst_n  (rst_n),     // not reset
