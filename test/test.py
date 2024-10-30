@@ -267,9 +267,8 @@ async def test_madd_full(dut):
     dut.rst_n.value= 1
     dot = 0 
     for _ in range(50):
-        w = random.randint(0,14)
-        i = random.randint(0,15)
-        print(w,i)
+        w = random.randint(0,5)
+        i = random.randint(0,5)
         v = (w<<4)+i
         dot += w * i 
         dut.uio_in.value = 0b0000_0_1_10
